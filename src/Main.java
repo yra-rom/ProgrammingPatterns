@@ -1,0 +1,40 @@
+import builder.User;
+import singleton.*;
+
+public class Main {
+
+    private static void useBuilder(){
+        User user = new User.UserBuilder().
+                name("Johny").
+                surname("Westside").
+                age(33).
+                email("johny.westside@westside.com").
+                id("777").
+                country("USA").
+                build();
+
+        System.out.println( "Name: " + user.getName() + "\n" +
+                            "Surname: " + user.getSurname() + "\n" +
+                            "Age: " + user.getAge() + "\n" +
+                            "Email: " + user.getEmail() + "\n" +
+                            "Id: " + user.getId() + "\n" +
+                            "Country: " + user.getCountry());
+    }
+
+    private static void useSingleton(){
+        StaticFieldSingleton singleton1 = StaticFieldSingleton.INSTANCE;
+        StaticFieldSingleton singleton2 = StaticFieldSingleton.getInstance();
+
+        EnumSingleton singleton3 = EnumSingleton.INSTANCE;
+
+        SynchronizedAccessorSingleton singleton4 = SynchronizedAccessorSingleton.getInstance();
+
+        DoubleLockingSingleton singleton5 = DoubleLockingSingleton.getInstance();
+
+        HolderSingleton singleton6 = HolderSingleton.getInstance();
+    }
+
+    public static void main(String[] args) {
+
+    }
+}

@@ -1,3 +1,5 @@
+import abstract_factory.GUICreator;
+import abstract_factory.OSType;
 import builder.User;
 import singleton.*;
 
@@ -32,6 +34,12 @@ public class Main {
         DoubleLockingSingleton singleton5 = DoubleLockingSingleton.getInstance();
 
         HolderSingleton singleton6 = HolderSingleton.getInstance();
+    }
+
+
+    private static void useAbstractFactory(){
+        GUICreator creator = new GUICreator(OSType.Linux);
+        creator.createWindow();
     }
 
     public static void main(String[] args) {

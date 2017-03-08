@@ -1,5 +1,6 @@
 import abstract_factory.GUICreator;
 import abstract_factory.OSType;
+import adapter.PrintAdapter;
 import builder.User;
 import iterator.Iterator;
 import iterator.LinkedList;
@@ -8,6 +9,8 @@ import observer.ConcreteObserver;
 import observer.Observable;
 import observer.Observer;
 import singleton.*;
+
+import java.util.ArrayList;
 
 public class Main {
 
@@ -79,7 +82,15 @@ public class Main {
         observable.notifyObserver();
     }
 
+    private static void useAdapter(){
+        java.util.List<String> list = new ArrayList<>();
+        list.add("One");
+        list.add("Two");
+        list.add("Three");
+        PrintAdapter printAdapter = new PrintAdapter();
+        printAdapter.printList(list);
+    }
+
     public static void main(String[] args) {
-        useObserver();
     }
 }

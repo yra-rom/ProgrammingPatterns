@@ -3,6 +3,10 @@ import abstract_factory.OSType;
 import builder.User;
 import iterator.Iterator;
 import iterator.LinkedList;
+import observer.ConcreteObservable;
+import observer.ConcreteObserver;
+import observer.Observable;
+import observer.Observer;
 import singleton.*;
 
 public class Main {
@@ -59,7 +63,23 @@ public class Main {
         list.showList();
     }
 
+    private static void useObserver(){
+        Observable observable = new ConcreteObservable();
+        Observer observer1 = new ConcreteObserver();
+        Observer observer2 = new ConcreteObserver();
+        Observer observer3 = new ConcreteObserver();
+        Observer observer4 = new ConcreteObserver();
+
+        observable.addObserver(observer1);
+        observable.addObserver(observer2);
+        observable.addObserver(observer3);
+        observable.addObserver(observer4);
+
+        observable.removeObserver(observer3);
+        observable.notifyObserver();
+    }
+
     public static void main(String[] args) {
-        useIterator();
+        useObserver();
     }
 }

@@ -1,6 +1,8 @@
 import abstract_factory.GUICreator;
 import abstract_factory.OSType;
 import builder.User;
+import iterator.Iterator;
+import iterator.LinkedList;
 import singleton.*;
 
 public class Main {
@@ -36,13 +38,28 @@ public class Main {
         HolderSingleton singleton6 = HolderSingleton.getInstance();
     }
 
-
     private static void useAbstractFactory(){
         GUICreator creator = new GUICreator(OSType.Linux);
         creator.createWindow();
     }
 
-    public static void main(String[] args) {
+    private static void useIterator(){
+        LinkedList<Integer> list = new LinkedList<>();
+        for(int i = 0; i < 11; ++i) {
+            list.add(i);
+        }
+        list.showList();
 
+        Iterator<Integer> iter = list.iterator();
+        System.out.println(iter.hasNext());
+        iter.remove();
+        while(iter.hasNext()){
+            System.out.print(iter.next() + " ");
+        }
+        list.showList();
+    }
+
+    public static void main(String[] args) {
+        useIterator();
     }
 }

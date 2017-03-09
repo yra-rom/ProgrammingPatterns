@@ -9,6 +9,10 @@ import observer.ConcreteObserver;
 import observer.Observable;
 import observer.Observer;
 import singleton.*;
+import visitor.computerpart.Computer;
+import visitor.computerpart.ComputerPart;
+import visitor.visitors.ComputerPartDisplayVisitor;
+import visitor.visitors.ComputerPartDoVisitor;
 
 import java.util.ArrayList;
 
@@ -91,6 +95,13 @@ public class Main {
         printAdapter.printList(list);
     }
 
+    private static void useVisitor(){
+        ComputerPart computer = new Computer();
+        computer.accept(new ComputerPartDisplayVisitor());
+        computer.accept(new ComputerPartDoVisitor());
+    }
+
     public static void main(String[] args) {
+        
     }
 }

@@ -9,6 +9,9 @@ import observer.ConcreteObserver;
 import observer.Observable;
 import observer.Observer;
 import singleton.*;
+import strategy.AgeSummarizer;
+import strategy.NameSummarizer;
+import strategy.UserSet;
 import visitor.computerpart.Computer;
 import visitor.computerpart.ComputerPart;
 import visitor.visitors.ComputerPartDisplayVisitor;
@@ -101,7 +104,19 @@ public class Main {
         computer.accept(new ComputerPartDoVisitor());
     }
 
+    private static void useStrategy(){
+        UserSet users = new UserSet();
+        users.add(new User.UserBuilder().name("Johny").surname("Westside").age(33).email("johny.westside@westside.com").id("777").country("USA").build());
+        users.add(new User.UserBuilder().name("Barbara").surname("Future").age(11).email("bb@mail.com").id("87").country("Germany").build());
+        users.add(new User.UserBuilder().name("Anna").surname("Zebra").age(22).email("zebra@mail.com").id("1").country("Norway").build());
+
+        users.setSummarizer(new NameSummarizer());
+        System.out.println(users.summarize());
+
+        users.setSummarizer(new AgeSummarizer());
+        System.out.println(users.summarize());
+    }
     public static void main(String[] args) {
-        
+        useStrategy();
     }
 }

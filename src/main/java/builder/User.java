@@ -1,5 +1,11 @@
 package builder;
 
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class User{
     private String id;
     private String name;
@@ -15,30 +21,6 @@ public class User{
         this.age = builder.age;
         this.email = builder.email;
         this.country = builder.country;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getCountry() {
-        return country;
     }
 
     public static class UserBuilder{

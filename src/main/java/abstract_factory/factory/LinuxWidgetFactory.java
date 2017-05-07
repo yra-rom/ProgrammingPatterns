@@ -1,4 +1,7 @@
-package abstract_factory;
+package abstract_factory.factory;
+
+import abstract_factory.window.Window;
+import abstract_factory.window.LinuxWindow;
 
 public class LinuxWidgetFactory implements AbstractWidgetFactory {
     @Override

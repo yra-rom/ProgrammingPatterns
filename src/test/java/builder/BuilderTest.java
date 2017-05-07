@@ -1,7 +1,8 @@
-import builder.User;
-import org.junit.jupiter.api.Test;
+package builder;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class BuilderTest {
 

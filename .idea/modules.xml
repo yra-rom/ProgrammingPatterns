@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ProgrammingPatterns.iml" filepath="$PROJECT_DIR$/ProgrammingPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns_main.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns_main.iml" group="programming-patterns" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns_test.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns_test.iml" group="programming-patterns" />
     </modules>
   </component>
 </project>

@@ -1,11 +1,13 @@
 package strategy;
 
 import builder.User;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 
 public class UserSet extends HashSet<User> {
+    @Setter
     private SummarizeStrategy summarizer;
 
     public String summarize(){
@@ -22,7 +24,4 @@ public class UserSet extends HashSet<User> {
         return summarizer.summarizeToList(this);
     }
 
-    public void setSummarizer(SummarizeStrategy summarizer) {
-        this.summarizer = summarizer;
-    }
 }

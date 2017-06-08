@@ -1,6 +1,7 @@
 package visitor.visitors;
 
-import visitor.computerpart.*;
+import visitor.computer.Computer;
+import visitor.computer.part.*;
 
 public interface ComputerPartVisitor {
     void visit(Keyboard keyboard);

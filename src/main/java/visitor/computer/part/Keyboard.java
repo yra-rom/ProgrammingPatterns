@@ -1,4 +1,4 @@
-package visitor.computerpart;
+package visitor.computer.part;
 
 import visitor.visitors.ComputerPartVisitor;
 

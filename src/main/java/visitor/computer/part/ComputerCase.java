@@ -1,5 +1,6 @@
-package visitor.computerpart;
+package visitor.computer.part;
 
+import visitor.computer.part.ComputerPart;
 import visitor.visitors.ComputerPartVisitor;
 
 public class ComputerCase implements ComputerPart {

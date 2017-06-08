@@ -1,6 +1,7 @@
 package visitor.visitors;
 
-import visitor.computerpart.*;
+import visitor.computer.Computer;
+import visitor.computer.part.*;
 
 public class ComputerPartDoVisitor implements ComputerPartVisitor {
     @Override

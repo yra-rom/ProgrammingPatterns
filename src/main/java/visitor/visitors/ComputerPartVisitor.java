@@ -1,6 +1,6 @@
 package visitor.visitors;
 
-import visitor.computer.Computer;
+import visitor.computer.part.Computer;
 import visitor.computer.part.*;
 
 public interface ComputerPartVisitor {

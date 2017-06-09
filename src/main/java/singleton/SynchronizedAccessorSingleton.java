@@ -1,6 +1,6 @@
 package singleton;
 
-public class SynchronizedAccessorSingleton {
+public final class SynchronizedAccessorSingleton {
     private static SynchronizedAccessorSingleton instance;
 
     public static synchronized SynchronizedAccessorSingleton getInstance() {

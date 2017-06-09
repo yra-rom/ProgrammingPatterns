@@ -1,6 +1,6 @@
 package singleton;
 
-public class DoubleLockingSingleton {
+public final class DoubleLockingSingleton {
     private static volatile DoubleLockingSingleton instance;
 
     public static DoubleLockingSingleton getInstance(){

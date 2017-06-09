@@ -1,10 +1,10 @@
 package iterator;
 
-public class ListIterator<T extends Comparable> implements Iterator<T> {
-    private LinkedList list;
+public class ListIterator<T> implements Iterator<T> {
+    private SimpleLinkedList list;
     private Node currentNode;
 
-    ListIterator(LinkedList list) {
+    ListIterator(SimpleLinkedList list) {
         this.list = list;
         this.currentNode = list.head;
     }
@@ -19,9 +19,16 @@ public class ListIterator<T extends Comparable> implements Iterator<T> {
         if(currentNode == null || currentNode.getNext() == null){
             return null;
         }
+
+        Node<T> returnValue = currentNode;
+
         currentNode = currentNode.getNext();
 
-        return (T) currentNode.getElement();
+        if(returnValue.getElement() == null){
+            return null;
+        } else {
+            return returnValue.getElement();
+        }
     }
 
     @Override

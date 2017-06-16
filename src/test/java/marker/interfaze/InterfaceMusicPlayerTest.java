@@ -1,8 +1,7 @@
-package marker;
+package marker.interfaze;
 
-import marker.interfaze.MusicPlayer;
-import marker.interfaze.RapMusic;
-import marker.interfaze.RockMusic;
+import marker.music.RapMusic;
+import marker.music.RockMusic;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
@@ -14,7 +13,7 @@ import java.io.PrintStream;
 
 import static org.junit.Assert.assertEquals;
 
-public class MusicPlayerTest {
+public class InterfaceMusicPlayerTest {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
@@ -31,7 +30,7 @@ public class MusicPlayerTest {
 
     @Test
     public void listenRockMusic() {
-        MusicPlayer player = new MusicPlayer();
+        InterfaceMusicPlayer player = new InterfaceMusicPlayer();
         RockMusic music = new RockMusic();
         player.listenMusic(new RockMusic());
         assertEquals(outContent.toString(), "Playing: " + music.getClass().getSimpleName() + "\r\n");
@@ -42,11 +41,10 @@ public class MusicPlayerTest {
 
     @Test
     public void listenRapMusic() {
-        MusicPlayer player = new MusicPlayer();
+        InterfaceMusicPlayer player = new InterfaceMusicPlayer();
         RapMusic music = new RapMusic();
         exception.expect(IllegalArgumentException.class);
         player.listenMusic(music);
 
     }
-
 }

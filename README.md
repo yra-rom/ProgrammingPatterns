@@ -13,3 +13,4 @@
     9. Visitor
     10. Proxy
     11. Immutable
+    12. Marker Interface && Marker Annotation

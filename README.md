@@ -11,3 +11,5 @@
     7. Singleton
     8. Strategy
     9. Visitor
+    10. Proxy
+    11. Immutable

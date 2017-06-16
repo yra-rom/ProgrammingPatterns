@@ -14,3 +14,4 @@
     10. Proxy
     11. Immutable
     12. Marker Interface && Marker Annotation
+    13. Null Object

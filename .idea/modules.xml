@@ -11,9 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/builder/builder.iml" filepath="$PROJECT_DIR$/.idea/modules/builder/builder.iml" group="builder" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/builder/builder_main.iml" filepath="$PROJECT_DIR$/.idea/modules/builder/builder_main.iml" group="builder" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/builder/builder_test.iml" filepath="$PROJECT_DIR$/.idea/modules/builder/builder_test.iml" group="builder" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/delegator/delegator.iml" filepath="$PROJECT_DIR$/.idea/modules/delegator/delegator.iml" group="delegator" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/delegator/delegator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/delegator/delegator_main.iml" group="delegator" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/delegator/delegator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/delegator/delegator_test.iml" group="delegator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/delegation.iml" filepath="$PROJECT_DIR$/.idea/modules/delegation.iml" group="delegation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/delegation/delegation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/delegation/delegation_main.iml" group="delegation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/delegation/delegation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/delegation/delegation_test.iml" group="delegation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns.iml" />
     </modules>
   </component>

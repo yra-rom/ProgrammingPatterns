@@ -1,3 +1,5 @@
 include 'abstract-factory'
 include 'adapter'
 include 'builder'
+include 'delegation'
+

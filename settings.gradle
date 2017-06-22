@@ -11,4 +11,5 @@ include 'observer'
 include 'prototype'
 include 'proxy'
 include 'singleton'
+include 'strategy'
 

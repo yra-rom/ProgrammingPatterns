@@ -42,6 +42,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/singleton.iml" filepath="$PROJECT_DIR$/.idea/modules/singleton.iml" group="singleton" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/singleton/singleton_main.iml" filepath="$PROJECT_DIR$/.idea/modules/singleton/singleton_main.iml" group="singleton" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/singleton/singleton_test.iml" filepath="$PROJECT_DIR$/.idea/modules/singleton/singleton_test.iml" group="singleton" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/strategy.iml" filepath="$PROJECT_DIR$/.idea/modules/strategy.iml" group="strategy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/strategy/strategy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/strategy/strategy_main.iml" group="strategy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/strategy/strategy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/strategy/strategy_test.iml" group="strategy" />
     </modules>
   </component>
 </project>

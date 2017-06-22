@@ -14,3 +14,4 @@
     10. Prototype
     11. Proxy
     12. Singleton
+    13. Strategy

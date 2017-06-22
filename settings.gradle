@@ -8,4 +8,5 @@ include 'marker'
 include 'null-object'
 include 'object-pool'
 include 'observer'
+include 'prototype'
 

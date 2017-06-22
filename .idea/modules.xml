@@ -33,6 +33,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/observer/observer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/observer/observer_main.iml" group="observer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/observer/observer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/observer/observer_test.iml" group="observer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/prototype.iml" filepath="$PROJECT_DIR$/.idea/modules/prototype.iml" group="prototype" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/prototype/prototype_main.iml" filepath="$PROJECT_DIR$/.idea/modules/prototype/prototype_main.iml" group="prototype" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/prototype/prototype_test.iml" filepath="$PROJECT_DIR$/.idea/modules/prototype/prototype_test.iml" group="prototype" />
     </modules>
   </component>
 </project>

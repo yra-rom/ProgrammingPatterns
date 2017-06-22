@@ -13,3 +13,4 @@
     9. Observer
     10. Prototype
     11. Proxy
+    12. Singleton

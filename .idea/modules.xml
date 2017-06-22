@@ -39,6 +39,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy.iml" group="proxy" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy/proxy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy/proxy_main.iml" group="proxy" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy/proxy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy/proxy_test.iml" group="proxy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/singleton.iml" filepath="$PROJECT_DIR$/.idea/modules/singleton.iml" group="singleton" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/singleton/singleton_main.iml" filepath="$PROJECT_DIR$/.idea/modules/singleton/singleton_main.iml" group="singleton" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/singleton/singleton_test.iml" filepath="$PROJECT_DIR$/.idea/modules/singleton/singleton_test.iml" group="singleton" />
     </modules>
   </component>
 </project>

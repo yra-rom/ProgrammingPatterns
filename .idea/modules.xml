@@ -20,6 +20,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/iterator/iterator.iml" filepath="$PROJECT_DIR$/.idea/modules/iterator/iterator.iml" group="iterator" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/iterator/iterator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/iterator/iterator_main.iml" group="iterator" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/iterator/iterator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/iterator/iterator_test.iml" group="iterator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marker.iml" filepath="$PROJECT_DIR$/.idea/modules/marker.iml" group="marker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marker/marker_main.iml" filepath="$PROJECT_DIR$/.idea/modules/marker/marker_main.iml" group="marker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marker/marker_test.iml" filepath="$PROJECT_DIR$/.idea/modules/marker/marker_test.iml" group="marker" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns.iml" />
     </modules>
   </component>

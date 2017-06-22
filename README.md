@@ -10,3 +10,4 @@
     6. Iterator
     7. Null Object
     8. Object Pool
+    9. Observer

@@ -29,6 +29,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/object-pool.iml" filepath="$PROJECT_DIR$/.idea/modules/object-pool.iml" group="object-pool" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/object-pool/object-pool_main.iml" filepath="$PROJECT_DIR$/.idea/modules/object-pool/object-pool_main.iml" group="object-pool" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/object-pool/object-pool_test.iml" filepath="$PROJECT_DIR$/.idea/modules/object-pool/object-pool_test.iml" group="object-pool" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/observer.iml" filepath="$PROJECT_DIR$/.idea/modules/observer.iml" group="observer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/observer/observer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/observer/observer_main.iml" group="observer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/observer/observer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/observer/observer_test.iml" group="observer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns.iml" />
     </modules>
   </component>

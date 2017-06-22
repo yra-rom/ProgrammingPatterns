@@ -9,4 +9,5 @@ include 'null-object'
 include 'object-pool'
 include 'observer'
 include 'prototype'
+include 'proxy'
 

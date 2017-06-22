@@ -36,6 +36,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/prototype.iml" filepath="$PROJECT_DIR$/.idea/modules/prototype.iml" group="prototype" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/prototype/prototype_main.iml" filepath="$PROJECT_DIR$/.idea/modules/prototype/prototype_main.iml" group="prototype" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/prototype/prototype_test.iml" filepath="$PROJECT_DIR$/.idea/modules/prototype/prototype_test.iml" group="prototype" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy.iml" group="proxy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy/proxy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy/proxy_main.iml" group="proxy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy/proxy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy/proxy_test.iml" group="proxy" />
     </modules>
   </component>
 </project>

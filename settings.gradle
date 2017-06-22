@@ -3,4 +3,5 @@ include 'adapter'
 include 'builder'
 include 'delegation'
 include 'immutable'
+include 'iterator'
 

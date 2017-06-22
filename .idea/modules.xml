@@ -17,6 +17,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/immutable.iml" filepath="$PROJECT_DIR$/.idea/modules/immutable.iml" group="immutable" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/immutable/immutable_main.iml" filepath="$PROJECT_DIR$/.idea/modules/immutable/immutable_main.iml" group="immutable" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/immutable/immutable_test.iml" filepath="$PROJECT_DIR$/.idea/modules/immutable/immutable_test.iml" group="immutable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iterator/iterator.iml" filepath="$PROJECT_DIR$/.idea/modules/iterator/iterator.iml" group="iterator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iterator/iterator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/iterator/iterator_main.iml" group="iterator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/iterator/iterator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/iterator/iterator_test.iml" group="iterator" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns.iml" />
     </modules>
   </component>

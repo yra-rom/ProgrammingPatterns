@@ -7,4 +7,4 @@
     3. Builder
     4. Delegation
     5. Immutable
-    
+    6. Iterator

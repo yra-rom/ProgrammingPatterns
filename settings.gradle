@@ -12,4 +12,5 @@ include 'prototype'
 include 'proxy'
 include 'singleton'
 include 'strategy'
+include 'visitor'
 

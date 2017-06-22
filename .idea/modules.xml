@@ -45,6 +45,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/strategy.iml" filepath="$PROJECT_DIR$/.idea/modules/strategy.iml" group="strategy" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/strategy/strategy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/strategy/strategy_main.iml" group="strategy" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/strategy/strategy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/strategy/strategy_test.iml" group="strategy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/visitor.iml" filepath="$PROJECT_DIR$/.idea/modules/visitor.iml" group="visitor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/visitor/visitor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/visitor/visitor_main.iml" group="visitor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/visitor/visitor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/visitor/visitor_test.iml" group="visitor" />
     </modules>
   </component>
 </project>

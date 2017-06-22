@@ -15,3 +15,4 @@
     11. Proxy
     12. Singleton
     13. Strategy
+    14. Visitor

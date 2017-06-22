@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/abstract-factory/abstract-factory.iml" filepath="$PROJECT_DIR$/.idea/modules/abstract-factory/abstract-factory.iml" group="abstract-factory" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/abstract-factory/abstract-factory_main.iml" filepath="$PROJECT_DIR$/.idea/modules/abstract-factory/abstract-factory_main.iml" group="abstract-factory" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/abstract-factory/abstract-factory_test.iml" filepath="$PROJECT_DIR$/.idea/modules/abstract-factory/abstract-factory_test.iml" group="abstract-factory" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adapter/adapter.iml" filepath="$PROJECT_DIR$/.idea/modules/adapter/adapter.iml" group="adapter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adapter/adapter_main.iml" filepath="$PROJECT_DIR$/.idea/modules/adapter/adapter_main.iml" group="adapter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adapter/adapter_test.iml" filepath="$PROJECT_DIR$/.idea/modules/adapter/adapter_test.iml" group="adapter" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns.iml" />
     </modules>
   </component>

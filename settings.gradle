@@ -1,1 +1,2 @@
 include 'abstract-factory'
+include 'adapter'

@@ -14,6 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/delegation.iml" filepath="$PROJECT_DIR$/.idea/modules/delegation.iml" group="delegation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/delegation/delegation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/delegation/delegation_main.iml" group="delegation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/delegation/delegation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/delegation/delegation_test.iml" group="delegation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/immutable.iml" filepath="$PROJECT_DIR$/.idea/modules/immutable.iml" group="immutable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/immutable/immutable_main.iml" filepath="$PROJECT_DIR$/.idea/modules/immutable/immutable_main.iml" group="immutable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/immutable/immutable_test.iml" filepath="$PROJECT_DIR$/.idea/modules/immutable/immutable_test.iml" group="immutable" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns.iml" />
     </modules>
   </component>

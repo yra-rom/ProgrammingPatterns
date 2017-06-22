@@ -6,4 +6,5 @@
     2. Adapter
     3. Builder
     4. Delegation
+    5. Immutable
     

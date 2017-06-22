@@ -26,6 +26,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/null-object.iml" filepath="$PROJECT_DIR$/.idea/modules/null-object.iml" group="null-object" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/null-object/null-object_main.iml" filepath="$PROJECT_DIR$/.idea/modules/null-object/null-object_main.iml" group="null-object" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/null-object/null-object_test.iml" filepath="$PROJECT_DIR$/.idea/modules/null-object/null-object_test.iml" group="null-object" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/object-pool.iml" filepath="$PROJECT_DIR$/.idea/modules/object-pool.iml" group="object-pool" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/object-pool/object-pool_main.iml" filepath="$PROJECT_DIR$/.idea/modules/object-pool/object-pool_main.iml" group="object-pool" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/object-pool/object-pool_test.iml" filepath="$PROJECT_DIR$/.idea/modules/object-pool/object-pool_test.iml" group="object-pool" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns.iml" />
     </modules>
   </component>

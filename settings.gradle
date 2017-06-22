@@ -6,4 +6,5 @@ include 'immutable'
 include 'iterator'
 include 'marker'
 include 'null-object'
+include 'object-pool'
 

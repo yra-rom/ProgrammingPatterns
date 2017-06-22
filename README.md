@@ -8,3 +8,4 @@
     4. Delegation
     5. Immutable
     6. Iterator
+    7. Null Object

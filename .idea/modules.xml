@@ -23,6 +23,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/marker.iml" filepath="$PROJECT_DIR$/.idea/modules/marker.iml" group="marker" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/marker/marker_main.iml" filepath="$PROJECT_DIR$/.idea/modules/marker/marker_main.iml" group="marker" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/marker/marker_test.iml" filepath="$PROJECT_DIR$/.idea/modules/marker/marker_test.iml" group="marker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/null-object.iml" filepath="$PROJECT_DIR$/.idea/modules/null-object.iml" group="null-object" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/null-object/null-object_main.iml" filepath="$PROJECT_DIR$/.idea/modules/null-object/null-object_main.iml" group="null-object" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/null-object/null-object_test.iml" filepath="$PROJECT_DIR$/.idea/modules/null-object/null-object_test.iml" group="null-object" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns.iml" />
     </modules>
   </component>

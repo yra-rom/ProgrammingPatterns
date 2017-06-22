@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/abstract-factory/abstract-factory.iml" filepath="$PROJECT_DIR$/.idea/modules/abstract-factory/abstract-factory.iml" group="abstract-factory" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/abstract-factory/abstract-factory_main.iml" filepath="$PROJECT_DIR$/.idea/modules/abstract-factory/abstract-factory_main.iml" group="abstract-factory" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/abstract-factory/abstract-factory_test.iml" filepath="$PROJECT_DIR$/.idea/modules/abstract-factory/abstract-factory_test.iml" group="abstract-factory" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns_main.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns_main.iml" group="programming-patterns" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-patterns_test.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-patterns_test.iml" group="programming-patterns" />
     </modules>
   </component>
 </project>

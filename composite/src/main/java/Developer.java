@@ -1,13 +1,17 @@
 import lombok.Getter;
+import lombok.Setter;
+import org.joda.money.Money;
 
 import java.util.Set;
 
 @Getter
 public class Developer implements Employee {
     private String name;
-    private Double salary;
+    private Money salary;
+    @Setter
+    private Employee boss;
 
-    public Developer(String name, Double salary) {
+    public Developer(String name, Money salary) {
         this.name = name;
         this.salary = salary;
     }

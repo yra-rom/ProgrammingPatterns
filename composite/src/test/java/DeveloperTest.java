@@ -1,3 +1,4 @@
+import org.joda.money.Money;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -13,7 +14,9 @@ public class DeveloperTest {
 
     @Before
     public void initDeveloper() {
-        developer = new Developer("Jack", 10_000.);
+        String name = "Jack";
+        Money salary = Money.parse("USD 10000");
+        developer = new Developer(name, salary);
     }
 
     @Rule
@@ -22,13 +25,13 @@ public class DeveloperTest {
     @Test
     public void hireEmployee() throws Exception {
         exception.expect(UnsupportedOperationException.class);
-        developer.hireEmployee(new Developer("Someone", 0.));
+        developer.hireEmployee(new Developer("Someone", Money.parse("USD 100")));
     }
 
     @Test
     public void fireEmployee() throws Exception {
         exception.expect(UnsupportedOperationException.class);
-        developer.fireEmployee(new Developer("Someone", 0.));
+        developer.fireEmployee(new Developer("Someone", Money.parse("USD 100")));
     }
 
     @Test

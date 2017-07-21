@@ -15,4 +15,3 @@ include 'strategy'
 include 'visitor'
 include 'composite'
 include 'chain-of-responsibility'
-

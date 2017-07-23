@@ -6,14 +6,15 @@
     2 Adapter
     3. Builder
     4. Composite
-    5. Delegation
-    6. Immutable
-    7. Iterator
-    8. Null Object
-    9. Object Pool
-    10. Observer
-    11. Prototype
-    12. Proxy
-    13. Singleton
-    14. Strategy
-    15. Visitor
+    5. Chain of responsibility 
+    6. Delegation
+    7. Immutable
+    8. Iterator
+    9. Null Object
+    10. Object Pool
+    11. Observer
+    12. Prototype
+    13. Proxy
+    14. Singleton
+    15. Strategy
+    16. Visitor

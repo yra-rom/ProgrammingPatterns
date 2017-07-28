@@ -2,20 +2,21 @@
 
 **List of implemented programming patterns**
 
-    1 Abstract factory
-    2 Adapter
+    1. Abstract factory
+    2. Adapter
     3. Builder
-    4. Composite
-    5. Chain of responsibility 
-    6. Delegation
-    7. Facade
-    8. Immutable
-    9. Iterator
-    10. Null Object
-    11. Object Pool
-    12. Observer
-    13. Prototype
-    14. Proxy
-    15. Singleton
-    16. Strategy
-    17. Visitor
+    4. Command
+    5. Composite
+    6. Chain of responsibility 
+    7. Delegation
+    8. Facade
+    10. Immutable
+    11. Iterator
+    12. Null Object
+    13. Object Pool
+    14. Observer
+    15. Prototype
+    16. Proxy
+    17. Singleton
+    18. Strategy
+    19. Visitor

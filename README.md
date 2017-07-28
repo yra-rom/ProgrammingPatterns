@@ -8,13 +8,14 @@
     4. Composite
     5. Chain of responsibility 
     6. Delegation
-    7. Immutable
-    8. Iterator
-    9. Null Object
-    10. Object Pool
-    11. Observer
-    12. Prototype
-    13. Proxy
-    14. Singleton
-    15. Strategy
-    16. Visitor
+    7. Facade
+    8. Immutable
+    9. Iterator
+    10. Null Object
+    11. Object Pool
+    12. Observer
+    13. Prototype
+    14. Proxy
+    15. Singleton
+    16. Strategy
+    17. Visitor
